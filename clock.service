@@ -1,0 +1,8 @@
+[Unit]
+Description=clock.sh
+
+[Service]
+ExecStart=/usr/bin/clock.sh
+
+[Install]
+WantedBy=multi-user.target
